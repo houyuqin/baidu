@@ -12,11 +12,19 @@ module.exports = function (grunt) {
     },
     cssmin: {
       'dist/baidu.min.css':'./baidu.css'
+    },
+    uglify: {
+      release:{
+        files:{
+          'dist/baidu.min.js':'./baidu.js'
+        }
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['cssmin']); 
+  grunt.registerTask('default', ['uglify:release']); 
 };
