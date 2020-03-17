@@ -1,24 +1,44 @@
 body{
-  background: url('http://img0.imgtn.bdimg.com/it/u=2144565000,3405564982&fm=26&gp=0.jpg') no-repeat;
+  background: url('bgjpg.jpg') no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
 }
 .content{
   opacity: 0.9;
   width: '100%';
-//  height: '100%';
 }
 .left{
   width:750px;
   height:600px;
-  background:red;
   float:left;
 }
 #logo{
-  color:#fff;
-  font-size:30;
-  margin-left:50;
-  margin-top:50;
+  width:100px;
+  height:50px;
+  margin:50px 0 0 50px;
+}
+.lt{
+  width: 200px;
+  height: 60px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin: 180px 0 10px 200px;
+}
+.lb{
+  width: 300px;
+  height: 35px;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 200px;
+}
+.help{
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 230px;
+  font-size: 12px;
 }
 .con{
   background: white;
